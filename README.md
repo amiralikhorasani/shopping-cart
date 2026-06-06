@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shopping Cart
 
 A small React shopping cart application built to practice modern state management with Redux Toolkit. The app lets users add products, update item quantities, remove products from the cart, and see the cart total update instantly.
@@ -138,3 +139,6 @@ The total price is recalculated after each cart update.
 ## License
 
 No license has been specified yet.
+=======
+# shopping-cart
+>>>>>>> 60bfd1ab07950f142344748433e12b80e8af80d5
