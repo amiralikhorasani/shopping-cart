@@ -1,0 +1,28 @@
+{
+  "carts": [
+    {
+      "id": 1,
+      "product_name": "Laptop",
+      "price": 250,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "product_name": "Phone",
+      "price": 250,
+      "quantity": 25
+    },
+    {
+      "id": 3,
+      "product_name": "Ram",
+      "price": 250,
+      "quantity": 5
+    },
+    {
+      "id": 4,
+      "product_name": "Tablet",
+      "price": 250,
+      "quantity": 1
+    }
+  ]
+}

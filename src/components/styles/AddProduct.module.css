@@ -1,0 +1,56 @@
+.add_product_container form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.add_product_container input {
+  width: 85%;
+  background: #f3d4f1;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  box-shadow: 3px 3px 0 0 #423544;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.add_product_container label span {
+  font-size: 1.3rem;
+}
+
+.button {
+  border: 0;
+  outline: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  background: #ac40c7;
+  color: #f3d4f1;
+
+  padding: 0.6rem 1.2rem;
+  box-shadow: 2px 2px 0 0 #423544;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.button:hover {
+  box-shadow: 2.5px 2.5px 0 0 #354436;
+  transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+}

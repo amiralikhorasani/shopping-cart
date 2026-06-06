@@ -1,0 +1,13 @@
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  gap: 3rem;
+}
+
+@media screen and (width < 800px) {
+  .box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

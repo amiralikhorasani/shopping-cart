@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.header h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+  font-family: cursive;
+  position: relative;
+  background: #8137b3;
+  width: fit-content;
+  margin-inline: auto;
+  color: rgb(238, 221, 255);
+  border-radius: 3px;
+  padding: 1rem;
+  box-shadow: 5px 5px 0 0 #3d3544;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
