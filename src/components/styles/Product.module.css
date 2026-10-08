@@ -1,5 +1,4 @@
 .product {
-  width: 100%;
   height: 7rem;
   background: #f3d4f1;
   box-shadow: 5px 5px 0 0 #423544;
@@ -17,10 +16,22 @@
 .info {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
 }
 
 .title {
   font-size: 1.8rem;
+}
+
+.title span {
+  font-size: 1.5rem;
+  color: #8137b3;
+  margin: 0rem;
+}
+
+.title h5 {
+  margin-bottom: 0.5rem;
 }
 
 .price {

@@ -3,6 +3,7 @@ import styles from "./styles/AddProduct.module.css";
 import Total from "./Total";
 import { useState } from "react";
 import { add } from "../redux/shoppingSlice";
+import toast from "react-hot-toast";
 
 function AddProduct() {
   const [productName, setProductName] = useState("");
@@ -13,6 +14,7 @@ function AddProduct() {
   function handleAdd(e) {
     e.preventDefault();
     dispatch(add({ productName, price }));
+    toast.success("Product added successfully!");
     setPrice("");
     setProductName("");
   }
