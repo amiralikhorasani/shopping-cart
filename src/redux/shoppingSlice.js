@@ -1,8 +1,40 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  carts: [],
-  total: 0,
+  carts: [
+    {
+      id: 1,
+      product_name: "Laptop",
+      price: 1000,
+      quantity: 1,
+    },
+    {
+      id: 2,
+      product_name: "Mouse",
+      price: 25,
+      quantity: 2,
+    },
+    {
+      id: 3,
+      product_name: "Keyboard",
+      price: 100,
+      quantity: 1,
+    },
+    {
+      id: 4,
+      product_name: "Monitor",
+      price: 200,
+      quantity: 1,
+    },
+    {
+      id: 5,
+      product_name: "Headphones",
+      price: 150,
+      quantity: 1,
+    },
+  ],
+  results: [],
+  total: 1475,
 };
 
 function totalCalc(carts) {
@@ -54,9 +86,13 @@ const shoppingSlice = createSlice({
       );
       state.total = totalCalc(state.carts);
     },
+    search(state, action) {
+      state.results = action.payload.length > 0 ? action.payload : [];
+    },
   },
 });
 
-export const { add, remove, incQuantity, decQuantity } = shoppingSlice.actions;
+export const { add, remove, incQuantity, decQuantity, search } =
+  shoppingSlice.actions;
 
 export default shoppingSlice.reducer;
